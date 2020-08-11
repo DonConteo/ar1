@@ -14,8 +14,8 @@ public class Main {
         ArrayList<Integer> another = new ArrayList<>();
 
         for(int i = 0; i < 20; i++){
-            String smth = reader.readLine();
-            list.add(Integer.parseInt(smth));
+            String s = reader.readLine();
+            list.add(Integer.parseInt(s));
         }
 
         for (int i = 0; i < list.size(); i++) {
